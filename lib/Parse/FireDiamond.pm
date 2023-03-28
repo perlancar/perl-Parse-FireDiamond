@@ -160,7 +160,7 @@ our %specific_hazard_attrs = (
     },
 );
 
-$SPEC{parse_fire_diamond_text} = {
+$SPEC{parse_fire_diamond_text_notation} = {
     v => 1.1,
     summary => 'Parse Fire Diamond (NFPA 704) text notation',
     args => {
@@ -185,7 +185,7 @@ $SPEC{parse_fire_diamond_text} = {
         },
     ],
 };
-sub parse_fire_diamond_text {
+sub parse_fire_diamond_text_notation {
     my %args = @_;
 
     my $notation = $args{notation} or return [400, "Please specify notation"];
