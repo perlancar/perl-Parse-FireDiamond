@@ -71,23 +71,23 @@ our %fire_hazard_attrs = (
 our %reactivity_attrs = (
     4 => {
         meaning => "may detonate",
-        explanation => "",
+        explanation => "Readily capable of detonation or explosive decomposition at normal temperatures and pressures (e.g. nitroglycerin, chlorine dioxide, nitrogen triiodide, manganese heptoxide, TNT)",
     },
     3 => {
         meaning => "shock + heat may detonate",
-        explanation => "",
+        explanation => "Capable of detonation or explosive decomposition but requires a strong initiating source, must be heated under confinement before initiation, reacts explosively with water, or will detonate if severely shocked (e.g. ammonium nitrate, caesium, hydrogen peroxide)",
     },
     2 => {
         meaning => "violent reaction",
-        explanation => "",
+        explanation => "Undergoes violent chemical change at elevated temperatures and pressures, reacts violently with water, or may form explosive mixtures with water (e.g. white phosphorus, potassium, sodium)",
     },
     1 => {
         meaning => "unstable if heated",
-        explanation => "",
+        explanation => "Normally stable, but can become unstable at elevated temperatures and pressures (e.g. propene, ammonium acetate, carbonic acid)",
     },
     0 => {
         meaning => "stable",
-        explanation => "",
+        explanation => "Normally stable, even under fire exposure conditions, and is not reactive with water (e.g. helium, N2, carbon dioxide)",
     },
 );
 
