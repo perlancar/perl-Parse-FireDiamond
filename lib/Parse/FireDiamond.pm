@@ -21,7 +21,7 @@ $SPEC{':package'} = {
     summary => 'Parse Fire Diamond (NFPA 704) notation',
 };
 
-my %health_hazard_attrs = (
+our %health_hazard_attrs = (
     4 => {
         meaning => "deadly",
         explanation => "Very short exposure could cause death or major residual injury (e.g. hydrogen cyanide, phosgene, diborane, methyl isocyanate, hydrofluoric acid)",
@@ -44,7 +44,7 @@ my %health_hazard_attrs = (
     },
 );
 
-my %fire_hazard_attrs = (
+our %fire_hazard_attrs = (
     4 => {
         meaning => "below 25 °C",
         explanation => "Will rapidly or completely vaporize at normal atmospheric pressure and temperature, or is readily dispersed in air and will burn readily (e.g. acetylene, propane, hydrogen gas, diborane). Includes pyrophoric substances. Flash point below room temperature at 22.8 °C (73 °F).",
@@ -68,7 +68,7 @@ my %fire_hazard_attrs = (
     },
 );
 
-my %reactivity_attrs = (
+our %reactivity_attrs = (
     4 => {
         meaning => "may detonate",
         explanation => "",
@@ -91,7 +91,7 @@ my %reactivity_attrs = (
     },
 );
 
-my %specific_hazard_attrs = (
+our %specific_hazard_attrs = (
     O => {
         meaning => "oxidizer",
         explanation => "allows chemicals to burn without an air supply (e.g. potassium perchlorate, ammonium nitrate, hydrogen peroxide)",
