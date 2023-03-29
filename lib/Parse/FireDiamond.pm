@@ -11,7 +11,7 @@ use warnings;
 
 use Exporter qw(import);
 our @EXPORT_OK = qw(
-                       parse_fire_diamond_notation
+                       parse_fire_diamond_text_notation
                );
 
 our %SPEC;
@@ -238,10 +238,10 @@ sub parse_fire_diamond_text_notation {
 =head1 SYNOPSIS
 
  use Parse::FireDiamond qw(
-     parse_fire_diamond_text
+     parse_fire_diamond_text_notation
  );
 
- my $res = parse_fire_diamond_text(notation => 'H3/F2/R1/');
+ my $res = parse_fire_diamond_text_notation(notation => 'H3/F2/R1/');
 
 
 =head1 DESCRIPTION
