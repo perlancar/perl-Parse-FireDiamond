@@ -59,8 +59,7 @@ our %fire_hazard_attrs = (
     },
     1 => {
         meaning => "above 93 °C",
-        meaning=>"slightly hazardous",
-        explanation => "",
+        explanation => "Materials that require considerable preheating, under all ambient temperature conditions, before ignition and combustion can occur (e.g. mineral oil, ammonia, ethylene glycol). Includes some finely divided suspended solids that do not require heating before ignition can occur. Flash point at or above 93.3 °C (200 °F).",
     },
     0 => {
         meaning=>"not flammable",
